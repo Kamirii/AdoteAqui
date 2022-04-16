@@ -1,4 +1,52 @@
-nav{
- display:flex;
- justify-content: center;
+
+*{
+    margin: 0 ;
+    padding:0;
+    box-sizing:border-box ; 
 }
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    background-color:blueviolet;
+    padding: 20px 5%;
+    align-items: center;
+    
+
+}
+
+ul{
+    list-style:none;
+}
+.logo{
+    display:flex; 
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+}
+.titulo{
+
+
+}
+
+.item li{
+    transition: all 0.3s, ease 0s;
+    display:inline-block;
+    padding: 10px;
+}
+
+.item li:hover{
+    color: white;
+}
+/*como colocar imagem na barrinha da janela ?*/
+    
+
+
